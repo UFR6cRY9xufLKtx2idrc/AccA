@@ -1,19 +1,7 @@
 // Top-level build file where you can add configuration options common to all sub-projects/modules.
 
 buildscript {
-    ext {
-        versions = [
-                kotlin: '1.7.22',
-                libsuVersion: '3.0.2',
-                roomVersion: '2.4.0',
-                lifecycle: '2.4.0',
-                coroutines: '1.4.3',
-                viewpager: "1.0.0",
-                material: "1.4.0",
-                browser: "1.4.0",
-                multidex: "2.0.1"
-        ]
-    }
+    ext.kotlin_version = '1.7.22'
     repositories {
         google()
         mavenCentral()
